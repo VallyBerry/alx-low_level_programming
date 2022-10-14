@@ -4,6 +4,7 @@
  * main - to print the value of the number stored in the variable
  *
  * Return: 0
+ */
 int main(void)
 {
 	int n;
