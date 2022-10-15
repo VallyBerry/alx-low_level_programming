@@ -2,7 +2,7 @@
 /**
  * main - to print the alphabets in lower and uooer case
  *
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
@@ -10,6 +10,7 @@ int main(void)
 
 	for (letter = 'a' letter <= 'z'; letter++)
 		putchar(letter);
+
 	for (letter = 'A' letter <= 'Z'; letter++)
 		putchar(letter);
 
