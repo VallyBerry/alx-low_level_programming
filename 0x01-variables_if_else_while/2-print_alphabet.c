@@ -1,22 +1,17 @@
 #include <stdio.h>
 /**
  * main- entry point for thr program.
- * char- first letter of alphabet
- * while- function for code
- * Return:0 if no errors, return non-zeros if errors
+ *
+ * Return: 0
  */
 int main(void)
 {
-	char start = 'a';
-	char end = 'z';
+	char letter;
 
-	char a = start;
-	while (a != end)
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
+	putchar('\n');
 
-	{
-		putchar("a\n", a);
-		a++;
-	}
 	return (0);
 }
