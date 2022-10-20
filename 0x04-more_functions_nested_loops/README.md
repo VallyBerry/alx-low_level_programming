@@ -1,1 +1,1 @@
-This is a folder on more function nested loops.
+This is a folder on more functions nested loops.
