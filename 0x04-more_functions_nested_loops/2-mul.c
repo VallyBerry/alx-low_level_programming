@@ -6,7 +6,7 @@
 * @a: first integer.
 * @b: second integer.
 *
-*Return: 0
+*Return: The result of multiplication.
 */
 int mul(int a, int b)
 {
