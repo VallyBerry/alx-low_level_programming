@@ -8,10 +8,10 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char dest, *b
+	char a, *b
 
-	dest = _putchar(*dest, *src);
-	b = &dest;
-	_putchar(dest);
-	return (*b);
+	a = (_putchar(dest)(src));
+	b = &a;
+	_putchar(a);
+	return (b);
 }
