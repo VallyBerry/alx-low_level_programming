@@ -8,10 +8,10 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char a, *b
+	char a[], *b
 
-	a = (_putchar(dest)(src));
+	a[] = (_putchar(dest)(src));
 	b = &a;
-	_putchar(a);
+	_putchar(a[]);
 	return (b);
 }
