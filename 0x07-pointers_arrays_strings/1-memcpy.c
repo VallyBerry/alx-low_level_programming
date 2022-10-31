@@ -2,12 +2,13 @@
 
 /**
  * *_memcpy - copies n bytes from src to dest.
- * @a: a pointer to dest.
+ * @n: function copies.
+ * @src: bytes from here.
+ * @dest: to here.
  * Return: a pointer to dest.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *a = &dest;
 	unsigned int i = 0;
 
 	while (i < n)
@@ -16,5 +17,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		i++;
 	}
 
-	return (a);
+	return (dest);
 }
