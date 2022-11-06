@@ -9,16 +9,20 @@
  */
 int _pow_recursion(int x, int y)
 {
-	int a;
+	int a; int res;
  
 	if (y < 0)
 	{
 		return (-1);
 	}
 	else
+		a = 0;
+	while (a <= y)
 	{
-		a = pow(x, y);
+		res = (x * x);
+		_pow_recursion(x, y);
 	}
-	return (a)
+
+	return (res);
 
 }
