@@ -15,14 +15,22 @@ int _pow_recursion(int x, int y)
 	{
 		return (-1);
 	}
-	else
-		a = 0;
-	while (a <= y)
+	else if
+		(y = 0)
 	{
-		res = (x * x);
-		_pow_recursion(x, y);
+		return (0);
 	}
-
+	else if
+		(y = 1)
+	{
+		res = x * 1;
+		return (res);
+	}
+	else
+	{
+		(a = 1, a <= y, a++)
+		res = (x * x);
+		_pow_recursion(res, x);
+	}
 	return (res);
-
 }
