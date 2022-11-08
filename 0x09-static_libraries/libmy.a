@@ -1,5 +1,5 @@
 !<arch>
-0-isupper.c/    0           0     0     644     273       `
+0-isupper.o/    0           0     0     644     273       `
 #include "main.h"
 #include <stdio.h>
 
@@ -18,7 +18,7 @@ int _isupper(int c)
 }
 
 
-0-memset.c/     0           0     0     644     427       `
+0-memset.o/     0           0     0     644     427       `
 #include "main.h"
 
 /**
@@ -46,7 +46,7 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 
-0-strcat.c/     0           0     0     644     288       `
+0-strcat.o/     0           0     0     644     288       `
 #include "main.h"
 
 /**
@@ -73,7 +73,7 @@ char *_strcat(char *dest, char *src)
 	*dest = '\0';
 	return (s);
 }
-100-atoi.c/     0           0     0     644     438       `
+100-atoi.o/     0           0     0     644     438       `
 #include "main.h"
 
 /**
@@ -114,7 +114,7 @@ int _atoi(char *s)
 	ni *= min;
 	return (ni);
 }
-1-isdigit.c/    0           0     0     644     254       `
+1-isdigit.o/    0           0     0     644     254       `
 #include "main.h"
 #include <stdio.h>
 
@@ -131,7 +131,7 @@ int _isdigit(int c)
 	else
 		return (0);
 }
-1-memcpy.c/     0           0     0     644     318       `
+1-memcpy.o/     0           0     0     644     318       `
 #include <stdio.h>
 
 /**
@@ -153,7 +153,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	return (dest);
 }
-1-strncat.c/    0           0     0     644     440       `
+1-strncat.o/    0           0     0     644     440       `
 #include "main.h"
 
 /**
@@ -180,7 +180,7 @@ char *_strncat(char *dest, char *src, int n)
 	dest[i + j] = '\0';
 	return (dest);
 }
-2-strchr.c/     0           0     0     644     345       `
+2-strchr.o/     0           0     0     644     345       `
 #include "main.h"
 
 /**
@@ -208,7 +208,7 @@ char *_strchr(char *s, char c)
 	return (NULL);
 }
 
-2-strlen.c/     0           0     0     644     209       `
+2-strlen.o/     0           0     0     644     209       `
 #include "main.h"
 #include <string.h>
 
@@ -227,7 +227,7 @@ int _strlen(char *s)
 	return (a);
 }
 
-2-strncpy.c/    0           0     0     644     414       `
+2-strncpy.o/    0           0     0     644     414       `
 #include "main.h"
 
 /**
@@ -254,7 +254,7 @@ int i;
 	return (dest);
 
 }
-3-islower.c/    0           0     0     644     254       `
+3-islower.o/    0           0     0     644     254       `
 #include "main.h"
 
 /**
@@ -270,7 +270,7 @@ int _islower(int c)
 	else
 		return (0);
 }
-3-puts.c/       0           0     0     644     241       `
+3-puts.o/       0           0     0     644     241       `
 #include "main.h"
 
 /**
@@ -290,7 +290,7 @@ void _puts(char *str)
 	_putchar('\n');
 }
 
-3-strcmp.c/     0           0     0     644     303       `
+3-strcmp.o/     0           0     0     644     303       `
 #include "main.h"
 /**
  * _strcmp - compare 2 string
@@ -318,7 +318,7 @@ int _strcmp(char *s1, char *s2)
 	}
 }
 
-3-strspn.c/     0           0     0     644     464       `
+3-strspn.o/     0           0     0     644     464       `
 #include "main.h"
 
 /**
@@ -351,7 +351,7 @@ unsigned int _strspn(char *s, char *accept)
 		return (z);
 
 }
-4-isalpha.c/    0           0     0     644     309       `
+4-isalpha.o/    0           0     0     644     309       `
 #include "main.h"
 
 /**
@@ -369,7 +369,7 @@ int _isalpha(int c)
 		return (0);
 }
 
-4-strpbrk.c/    0           0     0     644     419       `
+4-strpbrk.o/    0           0     0     644     419       `
 #include "main.h"
 
 /**
@@ -396,7 +396,7 @@ char *_strpbrk(char *s, char *accept)
 	return (NULL);
 }
 
-5-strstr.c/     0           0     0     644     539       `
+5-strstr.o/     0           0     0     644     539       `
 #include "main.h"
 
 /**
@@ -431,7 +431,7 @@ char *_strstr(char *haystack, char *needle)
 	return (0);
 }
 
-6-abs.c/        0           0     0     644     232       `
+6-abs.o/        0           0     0     644     232       `
 #include "main.h"
 
 /**
@@ -447,7 +447,7 @@ int _abs(int n)
 	else
 		return (-n);
 }
-9-strcpy.c/     0           0     0     644     289       `
+9-strcpy.o/     0           0     0     644     289       `
 #include "main.h"
 /**
  * _strcpy - copy the string pointed to by src to dest
@@ -465,7 +465,7 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-_putchar.c/     0           0     0     644     247       `
+_putchar.o/     0           0     0     644     247       `
 #include <unistd.h>
 
 /**
