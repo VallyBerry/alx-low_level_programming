@@ -9,7 +9,26 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (name != NULL && f != NULL)
+	char *a, *b;
 
-		f(name);
+	a = print_name_as_is;
+	b = print_name_uppercase;
+
+	if (name != NULL && f != NULL)
+	{
+		if (f == a)
+		{
+			print_name_as_is();
+		}
+
+		else if (f == b)
+		{
+			print_name_uppercase();
+		}
+
+		else
+		{
+			printf("wrong input");
+		}
+		/**f(name);**/
 }
