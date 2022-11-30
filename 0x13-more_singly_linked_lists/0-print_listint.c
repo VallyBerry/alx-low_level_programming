@@ -4,6 +4,7 @@
 /**
  * print_listint- prints out all the elements of a list.
  * @h: given variable.
+ * Return: size of elements in the struct.
  */
 size_t print_listint(const listint_t *h)
 {
